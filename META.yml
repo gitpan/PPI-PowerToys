@@ -1,0 +1,19 @@
+
+no_index: 
+  directory: 
+    - inc
+    - t
+generated_by: Module::Install version 0.62
+distribution_type: module
+version: 0.06
+name: PPI-PowerToys
+author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
+license: perl
+build_requires: 
+  Test::More: 0.47
+requires: 
+  PPI: 1.109
+  File::Find::Rule: 0
+  perl: 5.005
+  File::Spec: 0.80
+abstract: A handy collection of small PPI-based utilities
