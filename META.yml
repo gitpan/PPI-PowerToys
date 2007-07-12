@@ -1,19 +1,24 @@
-
+--- 
+abstract: A handy collection of small PPI-based utilities
+author: Adam Kennedy <adamk@cpan.org>, L<http://ali.as/>
+build_requires: 
+  Test::More: 0.47
+  Test::Script: 1.02
+distribution_type: module
+generated_by: Module::Install version 0.67
+license: perl
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: PPI-PowerToys
 no_index: 
   directory: 
     - inc
     - t
-generated_by: Module::Install version 0.62
-distribution_type: module
-version: 0.06
-name: PPI-PowerToys
-author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
-license: perl
-build_requires: 
-  Test::More: 0.47
 requires: 
-  PPI: 1.109
   File::Find::Rule: 0
-  perl: 5.005
+  File::Find::Rule::Perl: 0.03
   File::Spec: 0.80
-abstract: A handy collection of small PPI-based utilities
+  PPI: 1.109
+  perl: 5.005
+version: 0.08
