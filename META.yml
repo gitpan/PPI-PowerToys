@@ -1,11 +1,12 @@
 --- 
 abstract: A handy collection of small PPI-based utilities
-author: Adam Kennedy <adamk@cpan.org>, L<http://ali.as/>
+author: 
+  - Adam Kennedy <adamk@cpan.org>, L<http://ali.as/>
 build_requires: 
   Test::More: 0.47
   Test::Script: 1.02
 distribution_type: module
-generated_by: Module::Install version 0.67
+generated_by: Module::Install version 0.68
 license: perl
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -21,4 +22,4 @@ requires:
   File::Spec: 0.80
   PPI: 1.109
   perl: 5.005
-version: 0.08
+version: 0.09
