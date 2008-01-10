@@ -8,6 +8,7 @@ inc/Module/Install/Metadata.pm
 inc/Module/Install/Scripts.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
+lib/PPI/App/Version.pm
 lib/PPI/PowerToys.pm
 LICENSE
 Makefile.PL
