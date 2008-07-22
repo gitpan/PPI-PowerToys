@@ -1,25 +1,29 @@
---- 
-abstract: A handy collection of small PPI-based utilities
-author: 
-  - Adam Kennedy <adamk@cpan.org>
-build_requires: 
+---
+abstract: 'A handy collection of small PPI-based utilities'
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
   Test::More: 0.47
-  Test::Script: 1.02
+  Test::Script: 1.03
 distribution_type: module
-generated_by: Module::Install version 0.680
+generated_by: 'Module::Install version 0.76'
 license: perl
-meta-spec: 
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: PPI::PowerToys
 name: PPI-PowerToys
-no_index: 
-  directory: 
+no_index:
+  directory:
     - inc
     - t
-requires: 
+requires:
   File::Find::Rule: 0
   File::Find::Rule::Perl: 0.03
   File::Spec: 0.80
-  PPI: 1.109
+  PPI: 1.201
   perl: 5.005
-version: 0.10
+  version: 0.74
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.11
