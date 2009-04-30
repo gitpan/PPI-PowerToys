@@ -3,10 +3,15 @@ abstract: 'A handy collection of small PPI-based utilities'
 author:
   - 'Adam Kennedy <adamk@cpan.org>'
 build_requires:
+  ExtUtils::MakeMaker: 6.42
+  IPC::Run3: 0.034
+  Probe::Perl: 0.01
   Test::More: 0.47
   Test::Script: 1.03
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.76'
+generated_by: 'Module::Install version 0.83'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,12 +23,14 @@ no_index:
     - inc
     - t
 requires:
-  File::Find::Rule: 0
+  File::Find::Rule: 0.30
   File::Find::Rule::Perl: 0.03
   File::Spec: 0.80
-  PPI: 1.201
-  perl: 5.005
+  PPI::Document: 1.201
+  perl: 5.6.0
   version: 0.74
 resources:
+  ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/PPI-PowerToys
   license: http://dev.perl.org/licenses/
-version: 0.11
+  repository: http://svn.ali.as/cpan/trunk/PPI-PowerToys
+version: 0.12

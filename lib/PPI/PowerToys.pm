@@ -1,11 +1,11 @@
 package PPI::PowerToys;
 
-use 5.005;
+use 5.006;
 use strict;
 
 use vars qw{$VERSION};
 BEGIN {
-        $VERSION = '0.11';
+        $VERSION = '0.12';
 }
 
 1;
@@ -70,7 +70,7 @@ Adam Kennedy E<lt>adamk@cpan.orgE<gt>
 
 =head1 COPYRIGHT
 
-Copyright 2006 - 2008 Adam Kennedy.
+Copyright 2006 - 2009 Adam Kennedy.
 
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.

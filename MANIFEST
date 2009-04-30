@@ -2,9 +2,11 @@ Changes
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
+inc/Module/Install/DSL.pm
 inc/Module/Install/Fetch.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
+inc/Module/Install/Scripts.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/PPI/App/ppi_version.pm
@@ -16,6 +18,8 @@ META.yml
 README
 script/ppi_version
 t/01_compile.t
+t/02_find.t
+t/03_show.t
 t/97_meta.t
 t/98_pod.t
 t/99_pmv.t
