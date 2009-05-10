@@ -26,6 +26,7 @@ requires:
   File::Find::Rule: 0.30
   File::Find::Rule::Perl: 0.03
   File::Spec: 0.80
+  Getopt::Long: 2.36
   PPI::Document: 1.201
   perl: 5.6.0
   version: 0.74
@@ -33,4 +34,4 @@ resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/PPI-PowerToys
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/PPI-PowerToys
-version: 0.13
+version: 0.14
